@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel= "stylesheet" tipe="text/css" href="styles.css">
+  <title>Formulario de Categoría</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Formulario de Categoría</h1>
+    <form id="categoryForm">
+      <div class="form-group">
+        <label for="nombre">Nombre de la categoría:</label>
+        <input type="text" class="form-control" id="nombre" required>
+      </div>
+      <button type="submit" class="btn btn-primary">Agregar</button>
+    </form>
+    <h2>Listado de Categorías</h2>
+    <ul id="categoriaList" class="list-group"></ul>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
